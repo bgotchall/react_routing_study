@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/pictures" component={Pictures} />
         <Route exact path="/calendar" component={Calendar} />
-       
+        <h1>Footer</h1>
       </div>
     </Router>
   );
