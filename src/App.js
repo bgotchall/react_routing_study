@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavTabs />
+        
         <Route exact path="/" component={Home} />
         <Route exact path="/pictures" component={Pictures} />
         <Route exact path="/calendar" component={Calendar} />
